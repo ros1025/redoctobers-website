@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family: pixiFont;
+    src: url(fonts/Nunito-VariableFont_wght.ttf);
+    src: url(fonts/Nunito-VariableFont_wght.ttf) format("truetype");
+    unicode-range: U+00-52F, U+1E00-1FFF, U+2200-22FF;
+}
+
+@font-face {
+    font-family: pixiFont;
+    src: url(fonts/KosugiMaru-Regular.ttf);
+    src: url(fonts/KosugiMaru-Regular.ttf) format("truetype");
+    unicode-range:U+A5, U+4E00-9FFF, U+30??, U+FF00-FF9F;
+}
+
+@font-face {
+    font-family: pixiFont;
+    src: url(fonts/NanumSquareRoundR.ttf);
+    src: url(fonts/NanumSquareRoundR.ttf) format("truetype");
+    unicode-range:U+AC00-D7AF;
+}
+
+@font-face {
+    font-family: pixiFont;
+    src: url(fonts/ChillRoundF.ttf);
+    src: url(fonts/ChillRoundF.ttf) format("truetype");
+    unicode-range:U+4E00-9FD5;
+}
+
+*
+{
+    font-family: pixiFont;
+}
+
+.content
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar-item
+{
+    position: fixed;
+    transition: top 0.3s;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.navbar-item menu
+{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 10px 10px;
+    padding: 0px 10px;
+    border-radius: 40px;
+    background-color: #ff0000;
+}
+
+.navbar-item menu li
+{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
